@@ -15,7 +15,7 @@ How to build LineageOS
 
 * Initialize the repo:
 
-        repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+        repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
 
 * Create a local manifest:
 
@@ -23,10 +23,10 @@ How to build LineageOS
 
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
-            <project name="whatawurst/android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" />
-            <project name="whatawurst/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" />
-            <project name="whatawurst/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" />
-            <project name="whatawurst/android_vendor_samsung_beyond1lte" path="vendor/samsung/beyond1lte" remote="github" />
+            <project name="whatanupdate/android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" />
+            <project name="whatanupdate/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="github" />
+            <project name="whatanupdate/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="github" />
+            <project name="whatanupdate/android_vendor_samsung_beyond1lte" path="vendor/samsung/beyond1lte" remote="github" />
             <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
 	    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
         </manifest>
